@@ -1,0 +1,31 @@
+.h2 {
+  font-family: "Urbanist", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.h4 {
+  font-family: "Urbanist", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+.products-list-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 20px 0;
+}
+
+.product-card {
+  width: 20%;
+}
+
+.product-image {
+  height: 150px;
+  background: gray;
+}

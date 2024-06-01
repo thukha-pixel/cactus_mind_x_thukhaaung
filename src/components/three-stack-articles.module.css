@@ -1,0 +1,35 @@
+.articles-div {
+  display: flex;
+  justify-content: center;
+}
+
+.article {
+  width: 32%;
+  height: 300px;
+  display: block;
+  border-radius: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  box-shadow: 0 1px 16px hsla(0, 0%, 0%, .12);
+  background-image: url("../../public/images/Common.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.article-scale-up {
+  border-radius: 25px;
+  transform: scale(1.2);
+}
+
+.get-your-now-btn {
+  font-family: "Urbanist", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background: var(--purple-color);
+  color: var(--white-color);
+  border: none;
+}

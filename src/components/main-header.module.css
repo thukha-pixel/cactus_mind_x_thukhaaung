@@ -1,0 +1,16 @@
+.nav {
+  display: flex;
+  padding: 20px;
+  box-shadow: 0 1px 16px hsla(0, 0%, 0%, .12);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+  font-family: "Urbanist", sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+}
